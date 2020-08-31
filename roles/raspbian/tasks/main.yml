@@ -16,7 +16,7 @@
     backrefs: true
   notify: reboot
   when:
-    - raspbian is true
+    - raspbian
 
 - name: Flush iptables before changing to iptables-legacy
   iptables:
